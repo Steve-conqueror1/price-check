@@ -1,4 +1,4 @@
-const priceCheck = (products = 7, productPrices, productSold, soldPrice) => {
+const priceCheck = (products, productPrices, productSold, soldPrice) => {
   let error = 0;
   const actualPrices = {};
   const soldPrices = {};
